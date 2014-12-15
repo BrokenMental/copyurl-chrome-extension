@@ -1,0 +1,17 @@
+{
+    "name": {
+        "message": "COPY URL"
+    },
+    "description": {
+        "message": "Extension for the correct copying of URL address. COPY URL allows to copy URL addresses in Russian, Arabic, French, Japanese and other languages"
+    },
+    "button_title": {
+        "message" : "Press the button to copy the address to the clipboard"
+    },
+    "context_title": {
+        "message" : "Copy URL"
+    },
+    "notify_text": {
+        "message" : "Do you like the extension? Please leave us a feedback!"
+    }
+}

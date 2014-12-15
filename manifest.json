@@ -1,0 +1,39 @@
+{
+    "name": "__MSG_name__",
+    "short_name": "copyurl",
+    "description": "__MSG_description__",
+    "background": {
+        "page": "background.html"
+    },
+    "default_locale": "en",
+    "content_scripts": [
+        {
+            "js": [
+                "js/punycode.js",
+                "js/content.js"
+            ],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "page_action": {
+        "default_icon": {
+            "19": "img/copy.png",
+            "38": "img/copy.png"
+        },
+        "default_title": "__MSG_button_title__"
+    },
+    "icons": {
+        "128": "img/icon128.png",
+        "16": "img/icon16.png",
+        "48": "img/icon48.png"
+    },
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    "permissions": [
+        "contextMenus",
+        "clipboardWrite",
+        "tabs",
+        "notifications"
+    ],
+    "version": "1.4"
+}

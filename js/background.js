@@ -27,7 +27,6 @@ var time = 300;
 // }, time*1000)
 // }
 
-
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo) {
     if (changeInfo.status == 'loading') {
         chrome.pageAction.show(tabId);

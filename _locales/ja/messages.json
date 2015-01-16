@@ -1,0 +1,17 @@
+{
+    "name": {
+        "message": "COPY URL"
+    },
+    "description": {
+        "message": "URLを、正しくコピーする拡張機能です。 COPY URLは、ロシア語、アラビア語、フランス語、日本語や他の言語のURLをコピーすることができます。(※)"
+    },
+    "button_title": {
+        "message" : "このボタンを押すと，クリップボードにアドレスがコピーされます。"
+    },
+    "context_title": {
+        "message" : "URLをコピーしてください。"
+    },
+    "notify_text": {
+        "message" : "気に入っていただけましたか？私達にフィードバックをお願いします！"
+    }
+}

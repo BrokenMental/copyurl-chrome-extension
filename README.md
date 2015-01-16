@@ -1,3 +1,6 @@
+
+#COPY URL - Chrome Extension
+
 **COPY URL** is an extension for Google Chrome browser that fits into your browser as an additional toolbar. It is a convenient plugin to copy URL address.
 
 ###Advantages:
@@ -9,6 +12,9 @@
 - Copy page URL
 - Copy link URL (from context menu)
 - Copy image URL (from context menu)
+
+####Update 1.5:
+- Added Japanese language
 
 ####Update 1.4:
 - Added multilanguage: Russian and English languages

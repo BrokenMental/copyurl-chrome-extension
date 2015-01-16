@@ -13,19 +13,19 @@
 var manifest = chrome.runtime.getManifest();
 var time = 300;
 
-if (localStorage["version"] == null) {
-setTimeout(function(){
-    var options = {
-        type: "basic",
-        title: chrome.i18n.getMessage("name"),
-        message: chrome.i18n.getMessage("notify_text"),
-        iconUrl: "/img/notify.png"
-    };
-    chrome.notifications.create("", options, function (id) {
-    });
-    localStorage["version"] = manifest.version;
-}, time*1000)
-}
+// if (localStorage["version"] == null) {
+// setTimeout(function(){
+//     var options = {
+//         type: "basic",
+//         title: chrome.i18n.getMessage("name"),
+//         message: chrome.i18n.getMessage("notify_text"),
+//         iconUrl: "/img/notify.png"
+//     };
+//     chrome.notifications.create("", options, function (id) {
+//     });
+//     localStorage["version"] = manifest.version;
+// }, time*1000)
+// }
 
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo) {
@@ -153,7 +153,7 @@ chrome.contextMenus.create(
         }
     });
 
-chrome.notifications.onClicked.addListener(function (notificationId) {
-    chrome.tabs.create({url: 'https://chrome.google.com/webstore/detail/copy-url/mkhnbhdofgaendegcgbmndipmijhbili/reviews'});
-});
+// chrome.notifications.onClicked.addListener(function (notificationId) {
+//     chrome.tabs.create({url: 'https://chrome.google.com/webstore/detail/copy-url/mkhnbhdofgaendegcgbmndipmijhbili/reviews'});
+// });
 

@@ -1,0 +1,17 @@
+{
+    "name": {
+        "message": "COPY URL"
+    },
+    "description": {
+        "message": "COPY URL est une extension qui vous permet de copier le contenu des URL avec caractères spéciaux comme une alphabets national"
+    },
+    "button_title": {
+        "message" : "Appuyez sur le bouton pour copier les adresse au clipoard"
+    },
+    "context_title": {
+        "message" : "Copier l’URL"
+    },
+    "notify_text": {
+        "message" : "Aimez vous notre extension? Merci de nous donnez votre avis."
+    }
+}

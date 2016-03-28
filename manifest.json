@@ -35,5 +35,12 @@
         "tabs",
         "notifications"
     ],
-    "version": "1.6"
+     "commands": {
+      "_execute_page_action": {
+        "suggested_key": {
+          "default": "Alt+X"
+        }
+      }
+    },
+    "version": "1.7"
 }

@@ -13,6 +13,9 @@
 - Copy link URL (from context menu)
 - Copy image URL (from context menu)
 
+####Update 1.7:
+- Added Keyboard Shortcuts support
+
 ####Update 1.6:
 - Added Arabic and French languages
 
